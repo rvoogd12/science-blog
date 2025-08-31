@@ -30,11 +30,12 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
   }, [slug]);
 
   return (
-    <ReactMarkdown 
-      remarkPlugins={[remarkGfm]} 
-      className="prose prose-slate max-w-none"
-    >
-      {content}
-    </ReactMarkdown>
+    <div className="prose prose-slate max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+      <ReactMarkdown 
+        remarkPlugins={[remarkGfm]}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
   );
 } 
