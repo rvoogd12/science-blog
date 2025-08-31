@@ -3,12 +3,12 @@ import { BlogPost } from '../types/BlogPost';
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'Introduction to Chemical Bonds',
+    title: 'Anions and Cations',
     category: 'chemistry',
-    excerpt: 'Learn about the fundamental concepts of chemical bonding and how atoms join together to form molecules.',
-    content: 'Chemical bonding is one of the most important concepts in chemistry...',
+    excerpt: 'Learn about anions and cations, the charged particles that form through electron transfer and are fundamental to understanding chemical bonding.',
+    content: 'Anions and cations are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/chemical-bonds.jpg',
-    slug: 'introduction-to-chemical-bonds',
+    slug: 'anions-and-cations',
     videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
   },
   {
