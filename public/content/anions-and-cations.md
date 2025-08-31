@@ -1,8 +1,8 @@
 ## What are Anions and Cations?
 
-You might have heard the terms before, but what exactly are anions and cations, and why are they important? Let’s break it down!
+You might have heard the terms before, but what exactly are anions and cations, and why are they important? Let's break it down!
 
-So, let’s define what anions and cations are. Anions are negatively charged ions, while cations are positively charged ions. Remember, an ion is an atom or a molecule that has a net electric charge. How does this happen? Well, all atoms have both protons and electrons. Protons are positively charged particles, while electrons are negatively charged particles. If an atom has more electrons than protons, it has a net negative electric charge. In this case, the ion is an anion. If the atom has more protons than electrons, it has a net positive electric charge. In that case, the ion is a cation.
+So, let's define what anions and cations are. Anions are negatively charged ions, while cations are positively charged ions. Remember, an ion is an atom or a molecule that has a net electric charge. How does this happen? Well, all atoms have both protons and electrons. Protons are positively charged particles, while electrons are negatively charged particles. If an atom has more electrons than protons, it has a net negative electric charge. In this case, the ion is an anion. If the atom has more protons than electrons, it has a net positive electric charge. In that case, the ion is a cation.
 
 In other words: If the net electric charge of an ion is negative, the ion is an anion. On the other hand, if the net electric charge of an ion is positive, the ion is a cation.
 
@@ -34,25 +34,23 @@ For example, some chemical reactions need heat or light to happen whereas others
 
 ## Creation of Table Salt
 
-Let’s break down the process of making table salt to show how anions and cations form:
+Let's break down the process of making table salt to show how anions and cations form:
 
 1. **The Ingredients**: To make table salt, you need two main ingredients: sodium and chlorine. Sodium is a shiny, soft metal, that has 11 protons and 11 electrons. Chlorine is a greenish-yellow gas that can be quite dangerous on its own. As mentioned, chlorine has 17 protons and 17 electrons.
 
 2. **The Reaction**: When sodium and chlorine come together, they undergo a chemical reaction. This means they interact in a way that changes their properties and forms a new substance, namely table salt.
 
 3. **How It Works**:
-- **Sodium's Role**: Sodium has one extra electron that it doesn’t need. What I mean by that is that sodium happens to have one electron in its outermost shell (which is its third shell), and this electron actually makes it unstable. This is the case because atoms are most stable when their outermost electron shell is full. For many elements this means having eight electrons in the outermost shell. Since sodium has only one electron in its outermost shell, it is not stable and because atoms prefer to be stable, it kind of wants to lose that electron so that it becomes more stable. Because sodium is eager to lose that extra electron, it reacts readily with other elements, for example with chlorine. Now, what happens when sodium meets chlorine is that sodium gives away that extra electron. And it does that, because chlorine really wants that electron!
-
-- **Chlorine's Role**: Why does chlorine really want that electron? Well, chlorine has seven electrons in its outermost shell so it's just one electron short of having a full outermost shell with eight electrons. When it gets the electron from sodium, it becomes negatively charged because it now has more electrons than protons (the positively charged particles in its nucleus).
-This transfer of an electron allows sodium to achieve a stable electron configuration, while chlorine achieves a full outer shell.
+   - **Sodium's Role**: Sodium has one extra electron that it doesn't need. What I mean by that is that sodium happens to have one electron in its outermost shell (which is its third shell), and this electron actually makes it unstable. This is the case because atoms are most stable when their outermost electron shell is full. For many elements this means having eight electrons in the outermost shell. Since sodium has only one electron in its outermost shell, it is not stable and because atoms prefer to be stable, it kind of wants to lose that electron so that it becomes more stable. Because sodium is eager to lose that extra electron, it reacts readily with other elements, for example with chlorine. Now, what happens when sodium meets chlorine is that sodium gives away that extra electron. And it does that, because chlorine really wants that electron!
+   - **Chlorine's Role**: Why does chlorine really want that electron? Well, chlorine has seven electrons in its outermost shell so it's just one electron short of having a full outermost shell with eight electrons. When it gets the electron from sodium, it becomes negatively charged because it now has more electrons than protons (the positively charged particles in its nucleus). This transfer of an electron allows sodium to achieve a stable electron configuration, while chlorine achieves a full outer shell.
 
 4. **Creating Ions**: After this exchange of electrons:
-- Sodium becomes a positively charged ion (Na⁺) because it has lost an electron.
-- Chlorine becomes a negatively charged ion (Cl⁻) because it has gained that electron.
+   - Sodium becomes a positively charged ion (Na⁺) because it has lost an electron.
+   - Chlorine becomes a negatively charged ion (Cl⁻) because it has gained that electron.
 
 5. **Forming Table Salt**: These positively and negatively charged ions are attracted to each other because opposite charges attract. They form an ionic bond and stick together, to form a stable compound, namely, sodium chloride (which is table salt aka NaCl).
 
-6. **The Result**: The end product is a white, crystalline substance that we know as table salt. It’s safe to eat and is used in cooking and food preservation.
+6. **The Result**: The end product is a white, crystalline substance that we know as table salt. It's safe to eat and is used in cooking and food preservation.
 
 In summary, making table salt involves sodium giving away an electron to chlorine, and then coming together to form a new, stable substance. This simple reaction is a great example of how elements can combine to create something completely different!
 
