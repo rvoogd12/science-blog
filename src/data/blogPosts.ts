@@ -12,25 +12,5 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/anions-and-cations.jpg',
     slug: 'anions-and-cations',
     videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
-  },
-  {
-    id: '2',
-    title: 'Understanding Quantum Mechanics',
-    category: 'physics',
-    excerpt: 'Explore the fascinating world of quantum mechanics and how it describes the behavior of matter and energy at the atomic scale.',
-    content: 'Quantum mechanics is a fundamental theory in physics...',
-    imageUrl: '/images/quantum-mechanics.jpg',
-    slug: 'understanding-quantum-mechanics',
-    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
-  },
-  {
-    id: '3',
-    title: 'The Beauty of Calculus',
-    category: 'math',
-    excerpt: 'Discover how calculus helps us understand change and motion in the world around us.',
-    content: 'Calculus is the mathematical study of continuous change...',
-    imageUrl: '/images/calculus.jpg',
-    slug: 'the-beauty-of-calculus',
-    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
   }
 ];
