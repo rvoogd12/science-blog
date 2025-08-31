@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import Image from 'next/image';
 
 interface MarkdownContentProps {
   slug: string;
@@ -45,6 +46,28 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
           em: ({children}) => <em className="italic text-gray-700">{children}</em>,
           blockquote: ({children}) => <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-600 mb-4">{children}</blockquote>,
           code: ({children}) => <code className="bg-gray-100 text-gray-800 px-1 py-0.5 rounded text-sm font-mono">{children}</code>,
+          img: ({src, alt, title}) => {
+            const imageSrc = typeof src === 'string' ? src : '/images/placeholder.jpg';
+            return (
+              <div className="my-6 text-center">
+                <div className="relative inline-block max-w-full">
+                  <Image
+                    src={imageSrc}
+                    alt={alt || 'Image'}
+                    width={800}
+                    height={400}
+                    className="rounded-lg shadow-md max-w-full h-auto"
+                    style={{ objectFit: 'contain' }}
+                  />
+                  {(alt || title) && (
+                    <p className="text-sm text-gray-500 mt-2 italic">
+                      {title || alt}
+                    </p>
+                  )}
+                </div>
+              </div>
+            );
+          },
         }}
       >
         {content}
