@@ -56,7 +56,7 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
                     alt={alt || 'Image'}
                     width={800}
                     height={400}
-                    className="rounded-lg shadow-md max-w-full h-auto"
+                    className="rounded-lg shadow-lg max-w-full h-auto"
                     style={{ objectFit: 'contain' }}
                   />
                   {(alt || title) && (
