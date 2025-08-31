@@ -10,7 +10,7 @@ export interface BlogPostCardProps {
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
   return (
     <Link href={`/post/${post.slug}`}>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-1">
         <div className="relative h-48 w-full">
           <Image
             src={post.imageUrl}

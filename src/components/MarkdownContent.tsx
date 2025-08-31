@@ -56,8 +56,11 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
                     alt={alt || 'Image'}
                     width={800}
                     height={400}
-                    className="rounded-lg shadow-lg max-w-full h-auto"
-                    style={{ objectFit: 'contain' }}
+                    className="rounded-lg max-w-full h-auto"
+                    style={{ 
+                      objectFit: 'contain',
+                      boxShadow: '0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)'
+                    }}
                   />
                   {(alt || title) && (
                     <p className="text-sm text-gray-500 mt-2 italic">
