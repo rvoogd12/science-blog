@@ -21,28 +21,28 @@ export default function PostContent({ slug }: PostContentProps) {
     setLoading(false);
   }, [slug]);
 
-  if (!loading && !post) {
-    return notFound();
-  }
-
   if (loading) {
     return (
       <main className="min-h-screen bg-gray-50">
         <Banner />
         <div className="container mx-auto px-4 py-8 max-w-4xl">
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-center">Loading...</p>
+            <p className="text-center text-gray-700">Loading...</p>
           </div>
         </div>
       </main>
     );
   }
 
+  if (!post) {
+    return notFound();
+  }
+
   return (
     <main className="min-h-screen bg-gray-50">
       <Banner />
       <article className="container mx-auto px-4 py-8 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">{post.title}</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-gray-900">{post.title}</h1>
         
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="mb-4">
