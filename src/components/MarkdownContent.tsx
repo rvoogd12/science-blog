@@ -49,19 +49,18 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
           img: ({src, alt, title}) => {
             const imageSrc = typeof src === 'string' ? src : '/images/placeholder.jpg';
             return (
-              <div className="my-6 text-center">
+              <div className="my-8 text-center">
                 <div className="relative inline-block max-w-full">
-                  <Image
-                    src={imageSrc}
-                    alt={alt || 'Image'}
-                    width={800}
-                    height={400}
-                    className="rounded-lg max-w-full h-auto"
-                    style={{ 
-                      objectFit: 'contain',
-                      boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
-                    }}
-                  />
+                  <div className="shadow-xl rounded-lg overflow-hidden">
+                    <Image
+                      src={imageSrc}
+                      alt={alt || 'Image'}
+                      width={800}
+                      height={400}
+                      className="max-w-full h-auto"
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
                   {(alt || title) && (
                     <p className="text-sm text-gray-500 mt-2 italic">
                       {title || alt}
