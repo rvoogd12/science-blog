@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,7 +10,12 @@ export interface BlogPostCardProps {
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
   return (
     <Link href={`/post/${post.slug}`}>
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-1">
+      <div 
+        className="bg-white rounded-lg overflow-hidden cursor-pointer transform hover:-translate-y-1 transition-all duration-300"
+        style={{
+          boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.1)'
+        }}
+      >
         <div className="relative h-48 w-full">
           <Image
             src={post.imageUrl}
