@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { blogPosts } from '../data/blogPosts';
+import { blogPosts, BlogPost } from '../data/blogPosts';
 import Banner from './Banner';
 import MarkdownContent from './MarkdownContent';
 
@@ -12,12 +12,12 @@ interface PostContentProps {
 }
 
 export default function PostContent({ slug }: PostContentProps) {
-  const [post, setPost] = useState<any>(null);
+  const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const foundPost = blogPosts.find(post => post.slug === slug);
-    setPost(foundPost);
+    setPost(foundPost || null);
     setLoading(false);
   }, [slug]);
 

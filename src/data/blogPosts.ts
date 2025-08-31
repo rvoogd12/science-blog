@@ -1,5 +1,7 @@
 import { BlogPost } from '../types/BlogPost';
 
+export type { BlogPost };
+
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
