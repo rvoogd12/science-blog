@@ -23,9 +23,9 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
   );
 };
 
-export default function BlogPost(props: any) {
-  const { params } = props;
-  const post = blogPosts.find((post) => post.slug === params.slug);
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  const slug = params.slug;
+  const post = blogPosts.find((post) => post.slug === slug);
 
   if (!post) {
     notFound();
