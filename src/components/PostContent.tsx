@@ -11,6 +11,24 @@ interface PostContentProps {
   slug: string;
 }
 
+interface YouTubeEmbedProps {
+  videoId: string;
+}
+
+const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
+  return (
+    <div className="aspect-w-16 aspect-h-9 w-full mb-6">
+      <iframe
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="w-full h-[400px]"
+      ></iframe>
+    </div>
+  );
+};
+
 export default function PostContent({ slug }: PostContentProps) {
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
@@ -43,6 +61,9 @@ export default function PostContent({ slug }: PostContentProps) {
       <Banner />
       <article className="container mx-auto px-4 py-8 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-900">{post.title}</h1>
+        
+        {/* YouTube Video */}
+        {post.videoId && <YouTubeEmbed videoId={post.videoId} />}
         
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="mb-4">
