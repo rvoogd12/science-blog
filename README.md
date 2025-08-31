@@ -37,4 +37,4 @@ Check out our Next.js deployment documentation for more details.
 
 ## Deployment Status
 
-Last updated: August 31, 2025 - Latest build with ESLint fixes
+Last updated: August 31, 2025 - Latest build with ESLint fixes - Markdown styling fixed
