@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BlogPost } from '../types/BlogPost';
@@ -10,19 +10,9 @@ export interface BlogPostCardProps {
 }
 
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <Link href={`/post/${post.slug}`}>
-      <div 
-        className={`bg-white rounded-lg overflow-hidden cursor-pointer ${
-          isHovered 
-            ? 'card-lift-animation' 
-            : 'card-drop-animation'
-        }`}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
+      <div className="blog-card bg-white rounded-lg overflow-hidden cursor-pointer">
         <div className="relative h-48 w-full">
           <Image
             src={post.imageUrl}
