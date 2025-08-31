@@ -6,4 +6,5 @@ export interface BlogPost {
     content: string;
     imageUrl: string;
     slug: string;
+    videoId?: string; // Optional YouTube video ID
   }

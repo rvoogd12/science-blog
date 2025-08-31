@@ -8,7 +8,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Learn about the fundamental concepts of chemical bonding and how atoms join together to form molecules.',
     content: 'Chemical bonding is one of the most important concepts in chemistry...',
     imageUrl: '/images/chemical-bonds.jpg',
-    slug: 'introduction-to-chemical-bonds'
+    slug: 'introduction-to-chemical-bonds',
+    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
   },
   {
     id: '2',
@@ -17,7 +18,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Explore the fascinating world of quantum mechanics and how it describes the behavior of matter and energy at the atomic scale.',
     content: 'Quantum mechanics is a fundamental theory in physics...',
     imageUrl: '/images/quantum-mechanics.jpg',
-    slug: 'understanding-quantum-mechanics'
+    slug: 'understanding-quantum-mechanics',
+    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
   },
   {
     id: '3',
@@ -26,6 +28,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Discover how calculus helps us understand change and motion in the world around us.',
     content: 'Calculus is the mathematical study of continuous change...',
     imageUrl: '/images/calculus.jpg',
-    slug: 'the-beauty-of-calculus'
+    slug: 'the-beauty-of-calculus',
+    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
   }
 ];
