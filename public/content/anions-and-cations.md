@@ -45,8 +45,8 @@ Let's break down the process of making table salt to show how anions and cations
    - **Chlorine's Role**: Why does chlorine really want that electron? Well, chlorine has seven electrons in its outermost shell so it's just one electron short of having a full outermost shell with eight electrons. When it gets the electron from sodium, it becomes negatively charged because it now has more electrons than protons (the positively charged particles in its nucleus). This transfer of an electron allows sodium to achieve a stable electron configuration, while chlorine achieves a full outer shell.
 
 4. **Creating Ions**: After this exchange of electrons:
-   - Sodium becomes a positively charged ion (Na⁺) because it has lost an electron.
-   - Chlorine becomes a negatively charged ion (Cl⁻) because it has gained that electron.
+   - **Sodium** becomes a positively charged ion (Na⁺) because it has lost an electron.
+   - **Chlorine** becomes a negatively charged ion (Cl⁻) because it has gained that electron.
 
 5. **Forming Table Salt**: These positively and negatively charged ions are attracted to each other because opposite charges attract. They form an ionic bond and stick together, to form a stable compound, namely, sodium chloride (which is table salt aka NaCl).
 
