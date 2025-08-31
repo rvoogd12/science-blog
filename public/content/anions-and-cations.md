@@ -20,7 +20,7 @@ One example of an anion is a chloride ion (Cl⁻): When a chlorine atom gains an
 
 Another example of an anion is a sulfide ion (S²⁻): When a sulfur atom gains two electrons, it becomes a sulfide ion. Sulfur has 16 protons and 16 electrons. When it gains two electrons, it has 18 electrons, resulting in a -2 net charge. This makes it an anion.
 
-![Anions vs Cations Diagram](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
+![](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
 
 Now let's look at two examples of cations.
 The first example of a cation is a sodium ion (Na⁺): When a sodium atom loses an electron, it becomes a sodium ion. Sodium has 11 protons and 11 electrons. When it loses one electron, it has 10 electrons, resulting in a +1 net charge. This makes it a cation.
