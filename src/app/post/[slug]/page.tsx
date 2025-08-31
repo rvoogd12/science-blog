@@ -23,13 +23,8 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
   );
 };
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default function BlogPost({ params }: PageProps) {
+export default function BlogPost(props: any) {
+  const { params } = props;
   const post = blogPosts.find((post) => post.slug === params.slug);
 
   if (!post) {
