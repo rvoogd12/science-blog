@@ -11,6 +11,6 @@ export const blogPosts: BlogPost[] = [
     content: 'Anions and cations are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/anions-and-cations.jpg',
     slug: 'anions-and-cations',
-    videoId: 'dQw4w9WgXcQ' // Example YouTube video ID
+    videoId: 'Gfwq7MCd9VE' // Example YouTube video ID
   }
 ];
