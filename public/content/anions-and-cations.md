@@ -56,6 +56,8 @@ Let's break down the process of making table salt to show how anions and cations
 
 In summary, making table salt involves sodium giving away an electron to chlorine, and then coming together to form a new, stable substance. This simple reaction is a great example of how elements can combine to create something completely different!
 
+![](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
+
 There are two final things to know about anions and cations.
 
 The first is that metals tend to lose electrons and become cations, while nonmetals gain those electrons to become anions. Going back to our example with the table salt, sodium, which becomes a positively charged ion, so a cation, is classified as a metal. Chlorine, on the other hand, is a nonmetal and gains the electron to become an anion when it interacts with sodium.
@@ -65,3 +67,5 @@ The first is that metals tend to lose electrons and become cations, while nonmet
 In summary, an anion is a negatively charged ion formed when an atom gains one or more electrons. This extra negative charge comes from having more electrons than protons. On the other hand, a cation is a positively charged ion formed when an atom loses one or more electrons. This extra positive charge comes from having more protons than electrons.
 
 Anions and cations are essential in various chemical reactions and biological functions, making them a fundamental part of the world around us.
+
+![](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
