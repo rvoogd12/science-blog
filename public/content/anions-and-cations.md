@@ -56,7 +56,7 @@ Let's break down the process of making table salt to show how anions and cations
 
 In summary, making table salt involves sodium giving away an electron to chlorine, and then coming together to form a new, stable substance. This simple reaction is a great example of how elements can combine to create something completely different!
 
-![](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
+![](/images/001%20Anions%20and%20Cations/Chemistry%20Experiments%20and%20Crash%20Course%20Lessons.jpg)
 
 There are two final things to know about anions and cations.
 
@@ -68,4 +68,4 @@ In summary, an anion is a negatively charged ion formed when an atom gains one o
 
 Anions and cations are essential in various chemical reactions and biological functions, making them a fundamental part of the world around us.
 
-![](/images/001%20Anions%20and%20Cations/Anions%20vs%20Cations%20Crash%20Course%20for%20Class%2011%20Test.jpg)
+![](/images/001%20Anions%20and%20Cations/Anions%20and%20Cations%20Explained&20for%20Class%209%20and%2010.jpg)
