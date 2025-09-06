@@ -10,6 +10,8 @@ In other words: If the net electric charge of an ion is negative, the ion is an 
 
 Suppose we have an atom with the exact same number of protons and electrons. This means that this atom has no net electric charge, because the number of protons and the number of electrons cancel each other out. Now, when this atom gains extra electrons, it becomes negatively charged because it now has more negatively charged electrons than positively charged protons.
 
+![](/images/001%20Anions%20and%20Cations/Chemistry%20Lessons%201%20Movie%20for%20High%20School.jpg)
+
 For example, if an atom has 6 protons and 6 electrons, it is neutral. If it gains an extra electron, it now has 6 protons and 7 electrons. This gives it a net charge of -1, making it an anion.
 
 On the other hand, if that same atom with 6 protons and 6 electrons loses an electron, it now has 6 protons and 5 electrons. This gives it a net positive charge of +1, making it a cation.
@@ -42,6 +44,8 @@ Let's break down the process of making table salt to show how anions and cations
 
 2. **The Reaction**: When sodium and chlorine come together, they undergo a chemical reaction. This means they interact in a way that changes their properties and forms a new substance, namely table salt.
 
+   ![](/images/001%20Anions%20and%20Cations/Anions%20and%20Cations%20with%20practical%20Chemistry%20Analysis.jpg)
+
 3. **How It Works**:
    - **Sodium's Role**: Sodium has one extra electron that it doesn't need. What I mean by that is that sodium happens to have one electron in its outermost shell (which is its third shell), and this electron actually makes it unstable. This is the case because atoms are most stable when their outermost electron shell is full. For many elements this means having eight electrons in the outermost shell. Since sodium has only one electron in its outermost shell, it is not stable and because atoms prefer to be stable, it kind of wants to lose that electron so that it becomes more stable. Because sodium is eager to lose that extra electron, it reacts readily with other elements, for example with chlorine. Now, what happens when sodium meets chlorine is that sodium gives away that extra electron. And it does that, because chlorine really wants that electron!
    - **Chlorine's Role**: Why does chlorine really want that electron? Well, chlorine has seven electrons in its outermost shell so it's just one electron short of having a full outermost shell with eight electrons. When it gets the electron from sodium, it becomes negatively charged because it now has more electrons than protons (the positively charged particles in its nucleus). This transfer of an electron allows sodium to achieve a stable electron configuration, while chlorine achieves a full outer shell.
@@ -56,6 +60,8 @@ Let's break down the process of making table salt to show how anions and cations
 
 In summary, making table salt involves sodium giving away an electron to chlorine, and then coming together to form a new, stable substance. This simple reaction is a great example of how elements can combine to create something completely different!
 
+![](/images/001%20Anions%20and%20Cations/Chemistry%20Experiments%20and%20Crash%20Course%20Lessons.jpg)
+
 There are two final things to know about anions and cations.
 
 The first is that metals tend to lose electrons and become cations, while nonmetals gain those electrons to become anions. Going back to our example with the table salt, sodium, which becomes a positively charged ion, so a cation, is classified as a metal. Chlorine, on the other hand, is a nonmetal and gains the electron to become an anion when it interacts with sodium.
@@ -65,3 +71,5 @@ The first is that metals tend to lose electrons and become cations, while nonmet
 In summary, an anion is a negatively charged ion formed when an atom gains one or more electrons. This extra negative charge comes from having more electrons than protons. On the other hand, a cation is a positively charged ion formed when an atom loses one or more electrons. This extra positive charge comes from having more protons than electrons.
 
 Anions and cations are essential in various chemical reactions and biological functions, making them a fundamental part of the world around us.
+
+![](/images/001%20Anions%20and%20Cations/Anions%20and%20Cations%20Explained%20for%20Class%209%20and%2010.jpg)
