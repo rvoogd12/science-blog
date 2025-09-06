@@ -44,7 +44,7 @@ Let's break down the process of making table salt to show how anions and cations
 
 2. **The Reaction**: When sodium and chlorine come together, they undergo a chemical reaction. This means they interact in a way that changes their properties and forms a new substance, namely table salt.
 
-![](/images/001%20Anions%20and%20Cations/Anions%20and%20Cations%20with%20practical%20Chemistry%20Analysis.jpg)
+   ![](/images/001%20Anions%20and%20Cations/Anions%20and%20Cations%20with%20practical%20Chemistry%20Analysis.jpg)
 
 3. **How It Works**:
    - **Sodium's Role**: Sodium has one extra electron that it doesn't need. What I mean by that is that sodium happens to have one electron in its outermost shell (which is its third shell), and this electron actually makes it unstable. This is the case because atoms are most stable when their outermost electron shell is full. For many elements this means having eight electrons in the outermost shell. Since sodium has only one electron in its outermost shell, it is not stable and because atoms prefer to be stable, it kind of wants to lose that electron so that it becomes more stable. Because sodium is eager to lose that extra electron, it reacts readily with other elements, for example with chlorine. Now, what happens when sodium meets chlorine is that sodium gives away that extra electron. And it does that, because chlorine really wants that electron!
