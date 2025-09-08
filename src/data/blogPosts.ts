@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     id: '2',
     title: 'Monatomic and Polyatomic Ions',
     category: 'chemistry',
-    excerpt: 'We explain what monatomic and polyatomic ions are, including their difference, definition, and meaning in chemistry.',
+    excerpt: 'Discover the difference between monatomic ions (single atoms with charge) and polyatomic ions (multiple bonded atoms with charge) and their essential role in chemical reactions.',
     content: 'Monatomic and polyatomic ions are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/monatomic-and-polyatomic-ions.jpg',
     slug: 'monatomic-and-polyatomic-ions',
