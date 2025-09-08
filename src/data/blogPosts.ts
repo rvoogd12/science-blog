@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'We explain what monatomic and polyatomic ions are, including their difference, definition, and meaning in chemistry.',
     content: 'Monatomic and polyatomic ions are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/monoatomic-and-polyatomic-ions.jpg',
-    slug: 'monoatomic-and-polyatomic-ions',
+    slug: 'monatomic-and-polyatomic-ions',
     videoId: 'Gfwq7MCd9VE' // Example YouTube video ID
   }
 ];
