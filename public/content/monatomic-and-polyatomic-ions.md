@@ -1,6 +1,6 @@
 ## What are Monatomic and Polyatomic Ions?
 
-So in this article, we'll discuss two different types of ions, namely monatomic and polyatomic ions. As you might know, ions are particles with a net electric charge. They can be either positively charged or negatively charged. If an ion is positively charged, we call it a cation. On the other hand, if an ion is negatively charged, we call it an anion. If you want to know more about anions and cations, we have <a href="https://somethingcalledscience.com/post/anions-and-cations" style="color: blue;">another article</a> about those topics.
+So in this article, we'll discuss two different types of ions, namely monatomic and polyatomic ions. As you might know, ions are particles with a net electric charge. They can be either positively charged or negatively charged. If an ion is positively charged, we call it a cation. On the other hand, if an ion is negatively charged, we call it an anion. If you want to know more about anions and cations, we have [another article](https://somethingcalledscience.com/post/anions-and-cations/) about those topics.
 
 Now, ions can be classified into two main categories: monatomic ions and polyatomic ions. As the names imply, the difference between the two is that monatomic ions are made up of only one atom. Polyatomic ions, however, are made up of two or more atoms. These can be of the same or different elements.
 
