@@ -11,7 +11,7 @@ export const blogPosts: BlogPost[] = [
     content: 'Anions and cations are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/anions-and-cations.jpg',
     slug: 'anions-and-cations',
-    videoId: 'Gfwq7MCd9VE' // Example YouTube video ID
+    videoId: 'Gfwq7MCd9VE'
   },
   {
     id: '2',
@@ -21,6 +21,6 @@ export const blogPosts: BlogPost[] = [
     content: 'Monatomic and polyatomic ions are ions that have gained or lost electrons, resulting in a negative or positive charge...',
     imageUrl: '/images/monatomic-and-polyatomic-ions.jpg',
     slug: 'monatomic-and-polyatomic-ions',
-    videoId: 'Gfwq7MCd9VE' // Example YouTube video ID
+    videoId: 'SbDPA5B7DG4'
   }
 ];
