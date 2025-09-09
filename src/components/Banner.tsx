@@ -35,7 +35,7 @@ const Banner: React.FC = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-full px-4 py-1 rounded-full border border-gray-300 text-gray-900 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent placeholder-gray-500"
+              className="w-full px-4 py-1 rounded-full border border-gray-300 text-gray-900 focus:outline-none focus:ring-1 focus:ring-forest-600/50 focus:border-forest-600 placeholder-gray-500"
               aria-label="Search"
             />
             <div className="absolute inset-y-0 right-0 flex items-center pr-3">
