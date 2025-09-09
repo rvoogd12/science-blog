@@ -29,10 +29,9 @@ const Banner: React.FC = () => {
           </li>
         </ul>
       </nav>
-      <div className="w-full" style={{ 
+      <div className="w-full py-4" style={{ 
         background: 'linear-gradient(30deg, #3d5c47 0%, #4f7c5d 100%)',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-        height: '40px'
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
       }}></div>
     </div>
   );
