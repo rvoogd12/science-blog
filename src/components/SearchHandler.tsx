@@ -31,8 +31,9 @@ const fuse = new Fuse(searchablePosts, fuseOptions);
 
 export function useSearch() {
   const router = useRouter();
+  // Safely access searchParams - might be null during server rendering
   const searchParams = useSearchParams();
-  const query = searchParams.get('q') || '';
+  const query = searchParams ? searchParams.get('q') || '' : '';
   const [searchResults, setSearchResults] = useState<Array<Fuse.FuseResult<BlogPost>>>([]);
 
   // Handle search submission

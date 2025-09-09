@@ -1,12 +1,19 @@
 'use client';
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import SearchHandler from '../components/SearchHandler';
+
+// Simple fallback component while search is loading
+function SearchFallback() {
+  return <></>;
+}
 
 export default function SearchProvider({ children }: { children: React.ReactNode }) {
   return (
-    <SearchHandler>
-      {children}
-    </SearchHandler>
+    <Suspense fallback={<SearchFallback />}>
+      <SearchHandler>
+        {children}
+      </SearchHandler>
+    </Suspense>
   );
 }
