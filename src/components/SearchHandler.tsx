@@ -14,32 +14,25 @@ const searchablePosts = blogPosts.map(post => ({
   content: post.excerpt
 }));
 
-// Create a Fuse instance with stricter matching for titles
+// Create a Fuse instance that only searches titles and categories
 const fuseOptions = {
   keys: [
     { 
       name: 'title', 
-      weight: 3,
-      // Stricter matching for titles
-      getFn: (obj) => obj.title,
-      threshold: 0.2
+      weight: 5,
+      // Very permissive matching for titles to catch partial matches
+      threshold: 0.6
     },
-    { name: 'excerpt', weight: 1 },
-    { name: 'content', weight: 0.5 },
-    { name: 'category', weight: 1.5 }
+    { name: 'category', weight: 1 }
   ],
-  // More strict overall threshold
-  threshold: 0.3,
+  // Permissive threshold to catch more matches
+  threshold: 0.6,
   includeScore: true,
-  useExtendedSearch: true,
-  // Don't ignore location for more precise matching
-  ignoreLocation: false,
-  location: 0,
-  distance: 50,
-  // Enable stemming to handle plural forms
-  findAllMatches: true,
-  // Minimum length for fuzzy matching
-  minMatchCharLength: 2
+  useExtendedSearch: false,
+  // Ignore location to match anywhere in title
+  ignoreLocation: true,
+  // Find all possible matches
+  findAllMatches: true
 };
 
 // Initialize Fuse with searchable posts
@@ -70,72 +63,43 @@ export function useSearch() {
     }
   };
 
-  // Enhanced function to handle exact matches and plural/singular forms
+  // Simple normalization for search terms
   const normalizeSearchTerms = (searchQuery: string): string => {
-    // If query is very short (1-2 chars), use exact matching only
-    if (searchQuery.length <= 2) {
-      return `'${searchQuery}`;  // Exact match with Fuse.js syntax
-    }
-    
-    // Check if the query might be a title match
-    const potentialTitleMatch = searchablePosts.find(post => 
-      post.title.toLowerCase().includes(searchQuery.toLowerCase())
-    );
-    
-    // If it's a potential title match, prioritize exact matching
-    if (potentialTitleMatch) {
-      return `=${searchQuery}`; // Exact match with higher priority
-    }
-    
-    // For longer queries, split into words
-    const words = searchQuery.split(/\s+/);
-    
-    // Process each word to handle plurals and exact matches
-    const normalizedWords = words.map(word => {
-      // Skip short words for plural handling
-      if (word.length <= 3) return word;
-      
-      // For words ending with 's', also include the singular form
-      if (word.endsWith('s') && word.length > 3) {
-        return `(${word}|${word.slice(0, -1)})`;
-      }
-      // For singular words, also include potential plural form
-      else if (word.length > 2) {
-        return `(${word}|${word}s)`;
-      }
-      return word;
-    });
-    
-    return normalizedWords.join(' ');
-  };
-
-  // Helper to check if a post title contains the exact query
-  const titleContainsExactQuery = (post: BlogPost, queryText: string): boolean => {
-    return post.title.toLowerCase().includes(queryText.toLowerCase());
+    // Just return the query as is - we'll handle direct title matching separately
+    return searchQuery.trim().toLowerCase();
   };
   
+  // Function to directly find posts with titles containing the query
+  const findPostsWithTitleMatch = (searchQuery: string): BlogPost[] => {
+    const lowerQuery = searchQuery.trim().toLowerCase();
+    
+    // Return all posts where the title contains the query string
+    return searchablePosts.filter(post => 
+      post.title.toLowerCase().includes(lowerQuery)
+    );
+  };
+
   // Perform search when query changes
   useEffect(() => {
     if (query) {
-      // Use normalized search terms to handle plural/singular forms
-      const normalizedQuery = normalizeSearchTerms(query);
-      let results = fuse.search(normalizedQuery);
+      // First, try to find direct title matches
+      const directTitleMatches = findPostsWithTitleMatch(query);
       
-      // Post-process results to boost exact title matches
-      if (results.length > 1) {
-        // Sort results to prioritize exact title matches
-        results = results.sort((a, b) => {
-          const aHasExactTitle = titleContainsExactQuery(a.item, query);
-          const bHasExactTitle = titleContainsExactQuery(b.item, query);
-          
-          if (aHasExactTitle && !bHasExactTitle) return -1;
-          if (!aHasExactTitle && bHasExactTitle) return 1;
-          
-          // If both or neither have exact title matches, use the original score
-          return (a.score || 1) - (b.score || 1);
-        });
+      // If we found direct title matches, use those
+      if (directTitleMatches.length > 0) {
+        // Convert to FuseResult format
+        const directResults = directTitleMatches.map(post => ({
+          item: post,
+          refIndex: 0, // Not important for our use
+          score: 0 // Perfect score
+        }));
+        setSearchResults(directResults);
+        return;
       }
       
+      // If no direct title matches, fall back to fuzzy search
+      const normalizedQuery = normalizeSearchTerms(query);
+      const results = fuse.search(normalizedQuery);
       setSearchResults(results);
     } else {
       setSearchResults([]);
