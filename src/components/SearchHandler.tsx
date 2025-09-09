@@ -14,21 +14,32 @@ const searchablePosts = blogPosts.map(post => ({
   content: post.excerpt
 }));
 
-// Create a Fuse instance for searching
+// Create a Fuse instance with stricter matching for titles
 const fuseOptions = {
   keys: [
-    { name: 'title', weight: 2 },
+    { 
+      name: 'title', 
+      weight: 3,
+      // Stricter matching for titles
+      getFn: (obj) => obj.title,
+      threshold: 0.2
+    },
     { name: 'excerpt', weight: 1 },
     { name: 'content', weight: 0.5 },
     { name: 'category', weight: 1.5 }
   ],
-  threshold: 0.4, // Lower threshold = stricter matching
+  // More strict overall threshold
+  threshold: 0.3,
   includeScore: true,
-  ignoreLocation: true,
   useExtendedSearch: true,
-  distance: 100,
+  // Don't ignore location for more precise matching
+  ignoreLocation: false,
+  location: 0,
+  distance: 50,
   // Enable stemming to handle plural forms
-  findAllMatches: true
+  findAllMatches: true,
+  // Minimum length for fuzzy matching
+  minMatchCharLength: 2
 };
 
 // Initialize Fuse with searchable posts
@@ -59,32 +70,72 @@ export function useSearch() {
     }
   };
 
-  // Simple function to handle plural/singular forms
+  // Enhanced function to handle exact matches and plural/singular forms
   const normalizeSearchTerms = (searchQuery: string): string => {
-    // Split into words
+    // If query is very short (1-2 chars), use exact matching only
+    if (searchQuery.length <= 2) {
+      return `'${searchQuery}`;  // Exact match with Fuse.js syntax
+    }
+    
+    // Check if the query might be a title match
+    const potentialTitleMatch = searchablePosts.find(post => 
+      post.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    
+    // If it's a potential title match, prioritize exact matching
+    if (potentialTitleMatch) {
+      return `=${searchQuery}`; // Exact match with higher priority
+    }
+    
+    // For longer queries, split into words
     const words = searchQuery.split(/\s+/);
     
-    // Process each word to handle plurals
+    // Process each word to handle plurals and exact matches
     const normalizedWords = words.map(word => {
+      // Skip short words for plural handling
+      if (word.length <= 3) return word;
+      
       // For words ending with 's', also include the singular form
-      if (word.endsWith('s')) {
-        return `${word}|${word.slice(0, -1)}`;
+      if (word.endsWith('s') && word.length > 3) {
+        return `(${word}|${word.slice(0, -1)})`;
       }
       // For singular words, also include potential plural form
-      else {
-        return `${word}|${word}s`;
+      else if (word.length > 2) {
+        return `(${word}|${word}s)`;
       }
+      return word;
     });
     
     return normalizedWords.join(' ');
   };
 
+  // Helper to check if a post title contains the exact query
+  const titleContainsExactQuery = (post: BlogPost, queryText: string): boolean => {
+    return post.title.toLowerCase().includes(queryText.toLowerCase());
+  };
+  
   // Perform search when query changes
   useEffect(() => {
     if (query) {
       // Use normalized search terms to handle plural/singular forms
       const normalizedQuery = normalizeSearchTerms(query);
-      const results = fuse.search(normalizedQuery);
+      let results = fuse.search(normalizedQuery);
+      
+      // Post-process results to boost exact title matches
+      if (results.length > 1) {
+        // Sort results to prioritize exact title matches
+        results = results.sort((a, b) => {
+          const aHasExactTitle = titleContainsExactQuery(a.item, query);
+          const bHasExactTitle = titleContainsExactQuery(b.item, query);
+          
+          if (aHasExactTitle && !bHasExactTitle) return -1;
+          if (!aHasExactTitle && bHasExactTitle) return 1;
+          
+          // If both or neither have exact title matches, use the original score
+          return (a.score || 1) - (b.score || 1);
+        });
+      }
+      
       setSearchResults(results);
     } else {
       setSearchResults([]);
