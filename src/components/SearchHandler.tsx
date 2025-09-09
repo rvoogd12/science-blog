@@ -23,7 +23,12 @@ const fuseOptions = {
     { name: 'category', weight: 1.5 }
   ],
   threshold: 0.4, // Lower threshold = stricter matching
-  includeScore: true
+  includeScore: true,
+  ignoreLocation: true,
+  useExtendedSearch: true,
+  distance: 100,
+  // Enable stemming to handle plural forms
+  findAllMatches: true
 };
 
 // Initialize Fuse with searchable posts
@@ -54,10 +59,32 @@ export function useSearch() {
     }
   };
 
+  // Simple function to handle plural/singular forms
+  const normalizeSearchTerms = (searchQuery: string): string => {
+    // Split into words
+    const words = searchQuery.split(/\s+/);
+    
+    // Process each word to handle plurals
+    const normalizedWords = words.map(word => {
+      // For words ending with 's', also include the singular form
+      if (word.endsWith('s')) {
+        return `${word}|${word.slice(0, -1)}`;
+      }
+      // For singular words, also include potential plural form
+      else {
+        return `${word}|${word}s`;
+      }
+    });
+    
+    return normalizedWords.join(' ');
+  };
+
   // Perform search when query changes
   useEffect(() => {
     if (query) {
-      const results = fuse.search(query);
+      // Use normalized search terms to handle plural/singular forms
+      const normalizedQuery = normalizeSearchTerms(query);
+      const results = fuse.search(normalizedQuery);
       setSearchResults(results);
     } else {
       setSearchResults([]);
