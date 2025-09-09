@@ -44,12 +44,12 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
           li: ({children}) => <li className="text-gray-700 leading-relaxed">{children}</li>,
           strong: ({children}) => <strong className="font-semibold text-gray-900">{children}</strong>,
           em: ({children}) => <em className="italic text-gray-700">{children}</em>,
-          blockquote: ({children}) => <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-600 mb-4">{children}</blockquote>,
+          blockquote: ({children}) => <blockquote className="border-l-4 border-forest-600 pl-4 italic text-gray-600 mb-4">{children}</blockquote>,
           code: ({children}) => <code className="bg-gray-100 text-gray-800 px-1 py-0.5 rounded text-sm font-mono">{children}</code>,
           a: ({href, children}) => (
             <a 
               href={href} 
-              className="text-blue-800 hover:text-blue-600 font-medium underline decoration-1 underline-offset-2"
+              className="text-forest-800 hover:text-forest-600 font-medium underline decoration-1 underline-offset-2"
               target={href?.startsWith('http') ? '_blank' : undefined}
               rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
             >

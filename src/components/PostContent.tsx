@@ -67,7 +67,7 @@ export default function PostContent({ slug }: PostContentProps) {
         
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="mb-4">
-            <span className="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+            <span className="inline-block bg-forest-100 text-forest-800 text-sm px-3 py-1 rounded-full">
               {post.category}
             </span>
           </div>
@@ -78,7 +78,7 @@ export default function PostContent({ slug }: PostContentProps) {
         </div>
         
         <div className="mt-6">
-          <Link href="/" className="text-blue-600 hover:text-blue-800">
+          <Link href="/" className="text-forest-600 hover:text-forest-800">
             ← Back to home
           </Link>
         </div>

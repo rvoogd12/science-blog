@@ -25,7 +25,7 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
           <h2 className="text-xl font-bold text-gray-900 mb-2">{post.title}</h2>
           <p className="text-gray-600">{post.excerpt}</p>
           <div className="mt-4">
-            <span className="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+            <span className="inline-block bg-forest-100 text-forest-800 text-sm px-3 py-1 rounded-full">
               {post.category}
             </span>
           </div>
