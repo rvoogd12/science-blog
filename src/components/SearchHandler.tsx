@@ -2,48 +2,24 @@
 
 import { useRouter, useSearchParams } from 'next/navigation';
 import { FormEvent, useEffect, useState } from 'react';
-import Fuse from 'fuse.js';
 import { blogPosts } from '../data/blogPosts';
 import { BlogPost } from '../types/BlogPost';
 
-// Add content to the search index for better results
-const searchablePosts = blogPosts.map(post => ({
-  ...post,
-  // This would be replaced with actual content in a real implementation
-  // For now, we'll just use the excerpt as a placeholder
-  content: post.excerpt
-}));
+// Use blog posts directly for searching
+const searchablePosts = blogPosts;
 
-// Create a Fuse instance that only searches titles and categories
-const fuseOptions = {
-  keys: [
-    { 
-      name: 'title', 
-      weight: 5,
-      // Very permissive matching for titles to catch partial matches
-      threshold: 0.6
-    },
-    { name: 'category', weight: 1 }
-  ],
-  // Permissive threshold to catch more matches
-  threshold: 0.6,
-  includeScore: true,
-  useExtendedSearch: false,
-  // Ignore location to match anywhere in title
-  ignoreLocation: true,
-  // Find all possible matches
-  findAllMatches: true
-};
-
-// Initialize Fuse with searchable posts
-const fuse = new Fuse(searchablePosts, fuseOptions);
+// Define our own result type since we're not using Fuse.js anymore
+interface SearchResult {
+  item: BlogPost;
+  score: number;
+}
 
 export function useSearch() {
   const router = useRouter();
   // Safely access searchParams - might be null during server rendering
   const searchParams = useSearchParams();
   const query = searchParams ? searchParams.get('q') || '' : '';
-  const [searchResults, setSearchResults] = useState<Array<Fuse.FuseResult<BlogPost>>>([]);
+  const [searchResults, setSearchResults] = useState<Array<SearchResult>>([]);
 
   // Handle search submission
   const handleSearch = (e: FormEvent<HTMLFormElement> | string) => {
@@ -63,11 +39,7 @@ export function useSearch() {
     }
   };
 
-  // Simple normalization for search terms
-  const normalizeSearchTerms = (searchQuery: string): string => {
-    // Just return the query as is - we'll handle direct title matching separately
-    return searchQuery.trim().toLowerCase();
-  };
+  // We don't need this function anymore, removing it
   
   // Function to directly find posts with titles containing the query
   const findPostsWithTitleMatch = (searchQuery: string): BlogPost[] => {
@@ -76,6 +48,16 @@ export function useSearch() {
     // Return all posts where the title contains the query string
     return searchablePosts.filter(post => 
       post.title.toLowerCase().includes(lowerQuery)
+    );
+  };
+
+  // Function to find posts with category matching the query
+  const findPostsWithCategoryMatch = (searchQuery: string): BlogPost[] => {
+    const lowerQuery = searchQuery.trim().toLowerCase();
+    
+    // Return all posts where the category contains the query string
+    return searchablePosts.filter(post => 
+      post.category.toLowerCase().includes(lowerQuery)
     );
   };
 
@@ -90,17 +72,29 @@ export function useSearch() {
         // Convert to FuseResult format
         const directResults = directTitleMatches.map(post => ({
           item: post,
-          refIndex: 0, // Not important for our use
+          refIndex: 0,
           score: 0 // Perfect score
         }));
         setSearchResults(directResults);
         return;
       }
       
-      // If no direct title matches, fall back to fuzzy search
-      const normalizedQuery = normalizeSearchTerms(query);
-      const results = fuse.search(normalizedQuery);
-      setSearchResults(results);
+      // If no title matches, try category matches
+      const categoryMatches = findPostsWithCategoryMatch(query);
+      if (categoryMatches.length > 0) {
+        // Convert to FuseResult format
+        const categoryResults = categoryMatches.map(post => ({
+          item: post,
+          refIndex: 0,
+          score: 0.5 // Good but not perfect score
+        }));
+        setSearchResults(categoryResults);
+        return;
+      }
+      
+      // If no direct matches at all, return empty results
+      // No more fuzzy fallback
+      setSearchResults([]);
     } else {
       setSearchResults([]);
     }
