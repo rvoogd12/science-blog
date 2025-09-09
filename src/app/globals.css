@@ -37,7 +37,11 @@ body {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Only prevent blinking cursor in banner areas, but keep text selectable */
+/* Completely remove blinking cursor in banner areas, but keep text selectable */
 .w-full > div:not(input, textarea, button, [role="button"], [contenteditable="true"]) {
   caret-color: transparent;
+  -webkit-user-modify: read-only;
+  -moz-user-modify: read-only;
+  user-modify: read-only;
+  pointer-events: auto;
 }
