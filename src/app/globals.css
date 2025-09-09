@@ -37,8 +37,7 @@ body {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Prevent text selection and cursor appearance in non-interactive elements */
+/* Only prevent blinking cursor in banner areas, but keep text selectable */
 .w-full > div:not(input, textarea, button, [role="button"], [contenteditable="true"]) {
-  user-select: none;
-  cursor: default;
+  caret-color: transparent;
 }
