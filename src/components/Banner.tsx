@@ -10,7 +10,7 @@ const Banner: React.FC = () => {
       }}>
         <h1 className="text-3xl font-bold text-center">Something Called Science</h1>
       </div>
-      <nav className="bg-gray-100 shadow-md">
+      <nav className="bg-gray-100" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
         <ul className="flex justify-center space-x-8 py-4">
           <li>
             <Link href="/chemistry" className="text-lg text-blue-600 transition-colors hover:text-blue-800">
@@ -29,7 +29,7 @@ const Banner: React.FC = () => {
           </li>
         </ul>
       </nav>
-      <div className="w-full bg-gray-100 shadow-md py-4"></div>
+      <div className="w-full bg-gray-100 py-4" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}></div>
     </div>
   );
 };
