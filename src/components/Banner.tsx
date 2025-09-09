@@ -29,7 +29,12 @@ const Banner: React.FC = () => {
           </li>
         </ul>
       </nav>
-      <div className="w-full bg-gray-100 py-4" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}></div>
+      <div className="w-full bg-gray-100" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+        <div className="flex justify-center space-x-8 py-4">
+          {/* Empty div with same height as navigation links */}
+          <div className="text-lg opacity-0">Placeholder</div>
+        </div>
+      </div>
     </div>
   );
 };
