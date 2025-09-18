@@ -31,6 +31,6 @@ export const blogPosts: BlogPost[] = [
     content: 'Naming monatomic ions is a fundamental skill in chemistry, as it helps identify the chemical properties of elements and compounds...',
     imageUrl: '/images/naming-monatomic-ions.jpg',
     slug: 'naming-monatomic-ions',
-    videoId: 'SbDPA5B7DG4'
+    videoId: 'S_bSweRgE34'
   }
 ];
