@@ -32,5 +32,15 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/naming-monatomic-ions.jpg',
     slug: 'naming-monatomic-ions',
     videoId: 'S_bSweRgE34'
+  },
+  {
+    id: '4',
+    title: 'Naming Polyatomic Ions',
+    category: 'chemistry',
+    excerpt: 'Learn the specific rules for naming polyatomic ions, including how to determine if an ion is a cation or an anion and the naming conventions for polyatomic cations and anions.',
+    content: 'Naming polyatomic ions is a fundamental skill in chemistry, as it helps identify the chemical properties of elements and compounds...',
+    imageUrl: '/images/naming-polyatomic-ions.jpg',
+    slug: 'naming-polyatomic-ions',
+    videoId: 'oAo3NpXb0GM'
   }
 ];
