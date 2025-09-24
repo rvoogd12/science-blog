@@ -1,14 +1,16 @@
-# Intoduction
+# Naming Conventions in Chemistry
 
 As you may know, there are different types of ions. Some of them are monoatomic, which means that they consist of only one atom. Remember, an ion is an atom that has a net electric charge. Other types of ions, however, are polyatomic, which means that they consist of two or more atoms. These polyatomic ions carry a net electric charge as a group, and this is the type of ion that we'll talk about in this video.
 
 Specifically, we'll talk about the naming rules for polyatomic ions, because there are certain conventions for this. If you're interested in learning more about the difference between monoatomic and polyatomic ions, or about naming rules for monoatomic ions specifically, we have separate articles about these topics. For now, let's focus on the naming rules for polyatomic ions.
 
+![](/images/004%20Naming%20Polyatomic%20Ions/Polyatomic%20ions%20naming%20rules%20for%20chemistry.jpg)
+
 The naming rules for polyatomic ions differ for anions and cations. In other words, they are different for positively charged polyatomic ions, so for cations, and negatively charged polyatomic ions, so for anions. A net positive charge in polyatomic ions occurs because the number of protons, which are positively charged, is larger than the number of electrons, which are negatively charged. Hence in this case, we have a cation. A net negative charge, on the other hand, occurs when the number of electrons is larger than the number of protons. In that case, we have an anion.
 
 Let's start with the naming rules for polyatomic cations. There are two conventions for naming in this case.
 
-# Naming rules for Polyatomic Cations
+# Naming Rules for Polyatomic Cations
 
 The first is actually the least satisfying one because it is not very specific. This rule is that many polyatomic cations often simply do not have specific names that follow a strict naming convention. The naming in this case, is primarily based on common names which are unique and widely recognized in the field of chemistry. The names of these cations are often derived from their chemical composition or historical usage, and they are simply accepted as common names in the field of chemistry.
 
@@ -19,6 +21,8 @@ So this is the first naming convention for polyatomic cations, which is that in 
 ## Transition Metals
 
 So if you look at the periodic table of the elements, you'll see in the central block that there is a group of elements that is called the transition metals, and they include for example iron, copper, and gold.
+
+![](/images/004%20Naming%20Polyatomic%20Ions/Nomenclature%20rules%20for%20anions%20and%20cations.jpg)
 
 What is crucial to grasp is that transition metals are distinct from other elements in a way that is significant for our topic. Namely, they possess the capability to display multiple oxidation states. In simpler terms, this means that they can lose varying amounts of electrons. In contrast, elements that are not transition metals do not have this flexibility. They can only lose a specific number of electrons.
 
@@ -34,7 +38,7 @@ So, what implications does this have for answering our initial question, namely 
 
 In these examples, the Roman numeral in parentheses tells you the charge of the iron ion in the compound. So, this is the second convention for naming polyatomic cations, which is to use Roman numerals in the case of transition metals.
 
-# Summary of Naming rules for Polyatomic Cations
+# Summary of Naming Rules for Polyatomic Cations
 
 Let's summarize the naming rules for polyatomic cations:
 
@@ -44,7 +48,9 @@ Let's summarize the naming rules for polyatomic cations:
 These two conventions sum up the naming rules for polyatomic cations.
 Next, let's look at the naming rules for polyatomic anions.
 
-# Naming rules for Polyatomic Anions
+![](/images/004%20Naming%20Polyatomic%20Ions/Examples%20of%20naming%20polyatomic%20ionic%20compounds.jpg)
+
+# Naming Rules for Polyatomic Anions
 
 So, polyatomic anions are groups of at least two atoms that, as a group, have a net negative charge. Like in the case of polyatomic cations, there are also conventions for how to name polyatomic anions.
 
@@ -69,6 +75,8 @@ Now, in addition to the -ate and -ite suffixes, chemists use a second way to dis
 The prefix "hypo-" means "less than." It is used for the ion with one fewer oxygen atom than the "-ite" form.
 For example, **hypochlorite (ClO⁻)** has one oxygen atom, which is one fewer than **chlorite (ClO₂⁻)**, so the former gets the prefix "hypo-."
 
+![](/images/004%20Naming%20Polyatomic%20Ions/Prefixes%20and%20suffixes%20are%20common%20in%20chemistry.jpg)
+
 In contrast, the prefix "per-" means "more than." It is used for the ion with one more oxygen atom than the "-ate" form.
 For example, **perchlorate (ClO₄⁻)** has one more oxygen atom than chlorate (ClO₃⁻), thus the former gets the prefix "per-."
 
@@ -80,13 +88,15 @@ Now besides the naming rules for polyatomic anions that involve using the suffix
 
 Some examples are **hydroxide (OH⁻)**, which is a common polyatomic anion, and **cyanide (CN⁻)**, which is another polyatomic anion, often discussed for its toxicity.
 
-### Summary of Naming rules for Polyatomic Anions
+### Summary of Naming Rules for Polyatomic Anions
 
 So this brings us to a summary of the naming rules for polyatomic anions.
 
 First, use **"-ate"** for the ion with more oxygen atoms, and use **"-ite"** for the ion with fewer oxygen atoms.
 Second, use **"hypo-"** for the ion that has one fewer oxygen atom than the "-ite" form, and use **"per-"** for the ion that has one more oxygen atom than the "-ate" form.
 And third and final, some polyatomic anions have unique names, for example hydroxide or cyanide.
+
+![](/images/004%20Naming%20Polyatomic%20Ions/Naming%20conventions%20for%20polyatomic%20ions.jpg)
 
 # Conclusion
 
