@@ -2,7 +2,7 @@
 
 So, as you likely know, there are different types of ions. In this article, we'll discuss one particular type of ion, namely monatomic ions, and specifically what the naming rules for this type of ion are.
 
-Monatomic ions are ions that consist of one atom. This is different from another type of ion called polyatomic ions which are made up of two or more atoms. If you would like to know more about the difference between monatomic and polyatomic ions or about the naming rules for polyatomic ions, we have separate articles about these topics.
+Monatomic ions are ions that consist of one atom. This is different from another type of ion called polyatomic ions which are made up of two or more atoms. If you would like to know more about the [difference between monatomic and polyatomic ions](https://www.somethingcalledscience.com/post/monatomic-and-polyatomic-ions/) or about the [naming rules for polyatomic ions](https://www.somethingcalledscience.com/post/naming-polyatomic-ions/), we have separate articles about these topics.
 
 Now, for this article, we will focus specifically on the question of how monatomic ions are named, because there are specific rules for how this naming is done.
 

@@ -1,8 +1,8 @@
 # Naming Conventions in Chemistry
 
-As you may know, there are different types of ions. Some of them are monoatomic, which means that they consist of only one atom. Remember, an ion is an atom that has a net electric charge. Other types of ions, however, are polyatomic, which means that they consist of two or more atoms. These polyatomic ions carry a net electric charge as a group, and this is the type of ion that we'll talk about in this video.
+As you may know, there are different types of ions. Some of them are monatomic, which means that they consist of only one atom. Remember, an ion is an atom that has a net electric charge. Other types of ions, however, are polyatomic, which means that they consist of two or more atoms. These polyatomic ions carry a net electric charge as a group, and this is the type of ion that we'll talk about in this video.
 
-Specifically, we'll talk about the naming rules for polyatomic ions, because there are certain conventions for this. If you're interested in learning more about the difference between monoatomic and polyatomic ions, or about naming rules for monoatomic ions specifically, we have separate articles about these topics. For now, let's focus on the naming rules for polyatomic ions.
+Specifically, we'll talk about the naming rules for polyatomic ions, because there are certain conventions for this. If you're interested in learning more about the [difference between monatomic and polyatomic ions](https://www.somethingcalledscience.com/post/monatomic-and-polyatomic-ions/), or about [naming rules for monatomic ions](https://www.somethingcalledscience.com/post/naming-monatomic-ions/) specifically, we have separate articles about these topics. For now, let's focus on the naming rules for polyatomic ions.
 
 ![](/images/004%20Naming%20Polyatomic%20Ions/Polyatomic%20ions%20naming%20rules%20for%20chemistry.jpg)
 
@@ -26,7 +26,7 @@ So if you look at the periodic table of the elements, you'll see in the central 
 
 What is crucial to grasp is that transition metals are distinct from other elements in a way that is significant for our topic. Namely, they possess the capability to display multiple oxidation states. In simpler terms, this means that they can lose varying amounts of electrons. In contrast, elements that are not transition metals do not have this flexibility. They can only lose a specific number of electrons.
 
-To briefly illustrate this, let's take the case of two monoatomic ions that are not transition metals, namely, potassium and magnesium. Potassium can only lose one electron, forming a potassium ion (K⁺), while magnesium, which isn't a transition metal either, can only lose two electrons, resulting in a magnesium ion (Mg²⁺).
+To briefly illustrate this, let's take the case of two monatomic ions that are not transition metals, namely, potassium and magnesium. Potassium can only lose one electron, forming a potassium ion (K⁺), while magnesium, which isn't a transition metal either, can only lose two electrons, resulting in a magnesium ion (Mg²⁺).
 
 On the other hand, when we consider a transition metal like copper, we observe that it can lose different quantities of electrons. For copper, the most prevalent oxidation states occur when it loses either one or two electrons. Therefore, **Cu⁺** and **Cu²⁺** represent the two main oxidation states of copper.
 
