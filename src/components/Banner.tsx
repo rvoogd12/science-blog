@@ -38,6 +38,11 @@ const Banner: React.FC = () => {
               Math
             </Link>
           </li>
+          <li>
+            <Link href="/download-worksheet" className="text-lg text-blue-600 transition-colors hover:text-blue-800">
+              Worksheets
+            </Link>
+          </li>
         </ul>
       </nav>
       <div className="w-full bg-gray-100" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
