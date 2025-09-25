@@ -15,7 +15,7 @@ export default function DownloadWorksheet() {
               <input
                 type="text"
                 placeholder="First name"
-                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-green-600 placeholder-gray-500"
+                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-green-600 placeholder-gray-500 text-gray-900"
               />
             </div>
             
@@ -23,7 +23,7 @@ export default function DownloadWorksheet() {
               <input
                 type="email"
                 placeholder="Email address"
-                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-green-600 placeholder-gray-500"
+                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-green-600 placeholder-gray-500 text-gray-900"
               />
             </div>
             
