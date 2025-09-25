@@ -17,7 +17,9 @@ const Banner: React.FC = () => {
         background: 'linear-gradient(30deg, #3d5c47 0%, #4f7c5d 100%)',
         boxShadow: '0 4px 8px rgba(0,0,0,0.3)'
       }}>
-        <h1 className="text-3xl font-bold text-center">Something Called Science</h1>
+        <Link href="/" className="block">
+          <h1 className="text-3xl font-bold text-center cursor-pointer hover:text-gray-200 transition-colors">Something Called Science</h1>
+        </Link>
       </div>
       <nav className="bg-gray-100 relative z-0" style={{ boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
         <ul className="flex justify-center space-x-8 py-4">
