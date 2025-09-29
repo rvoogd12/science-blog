@@ -20,19 +20,13 @@ export default function WorksheetCard({ id, title, description, imageUrl, href }
     // Create the download link for the PDF
     const pdfUrl = `/worksheets/${id}.pdf`;
     
-    // Create a temporary link element
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.setAttribute('download', `${title.replace(/\s+/g, '-').toLowerCase()}.pdf`);
-    link.setAttribute('target', '_blank');
-    document.body.appendChild(link);
+    // Open the PDF in a new tab - this is more reliable than forcing a download
+    window.open(pdfUrl, '_blank');
     
-    // Trigger the download
-    link.click();
-    
-    // Clean up
-    document.body.removeChild(link);
-    setIsDownloading(false);
+    // Reset downloading state after a short delay
+    setTimeout(() => {
+      setIsDownloading(false);
+    }, 500);
   };
 
   return (
