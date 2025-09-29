@@ -1,7 +1,7 @@
 import Banner from '../../components/Banner';
 import BlogPostCard from '../../components/BlogPostCard';
+import WorksheetCard from '../../components/WorksheetCard';
 import { blogPosts } from '../../data/blogPosts';
-import Link from 'next/link';
 
 export default function Worksheets() {
   // Filter only worksheet posts if you have any
@@ -27,31 +27,14 @@ export default function Worksheets() {
         {/* Available worksheets */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {availableWorksheets.map((worksheet) => (
-            <div key={worksheet.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-200">
-                {worksheet.imageUrl ? (
-                  <img 
-                    src={worksheet.imageUrl} 
-                    alt={worksheet.title} 
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.currentTarget.src = '/images/placeholder.jpg';
-                    }} 
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                    <span className="text-gray-500">Worksheet Preview</span>
-                  </div>
-                )}
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{worksheet.title}</h3>
-                <p className="text-gray-700 mb-4">{worksheet.description}</p>
-                <Link href={worksheet.href} className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded transition-colors">
-                  Get Worksheet
-                </Link>
-              </div>
-            </div>
+            <WorksheetCard
+              key={worksheet.id}
+              id={worksheet.id}
+              title={worksheet.title}
+              description={worksheet.description}
+              imageUrl={worksheet.imageUrl}
+              href={worksheet.href}
+            />
           ))}
         </div>
         
