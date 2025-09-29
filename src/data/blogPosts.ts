@@ -42,5 +42,15 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/naming-polyatomic-ions.jpg',
     slug: 'naming-polyatomic-ions',
     videoId: 'oAo3NpXb0GM'
+  },
+  {
+    id: '5',
+    title: 'Polyatomic Ions',
+    category: 'chemistry',
+    excerpt: 'Learn about polyatomic ions, the ions that consist of two or more atoms bonded together, and their role in chemical reactions and compounds.',
+    content: 'Polyatomic ions are ions that consist of two or more atoms bonded together, and they carry a charge...',
+    imageUrl: '/images/polyatomic-ions.jpg',
+    slug: 'polyatomic-ions',
+    videoId: 'oSWCbrzxInI'
   }
 ];

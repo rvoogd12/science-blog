@@ -7,13 +7,18 @@ export default function Worksheets() {
   // Filter only worksheet posts if you have any
   const worksheetPosts = blogPosts.filter(post => post.category === 'worksheet');
   
-  // Define available worksheets
+  // Find related blog posts for worksheets
+  const findRelatedBlogPost = (topicId: string) => {
+    return blogPosts.find(post => post.slug === topicId || post.slug.includes(topicId));
+  };
+  
+  // Define available worksheets with images from related blog posts
   const availableWorksheets = [
     {
       id: 'polyatomic-ions',
       title: 'Polyatomic Ions Worksheet',
       description: 'Practice identifying and naming polyatomic ions with this comprehensive worksheet.',
-      imageUrl: '/images/worksheets/polyatomic-ions.jpg',
+      imageUrl: findRelatedBlogPost('polyatomic-ions')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/polyatomic-ions'
     }
   ];
