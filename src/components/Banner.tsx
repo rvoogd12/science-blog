@@ -39,7 +39,7 @@ const Banner: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/download-worksheet" className="text-lg text-blue-600 transition-colors hover:text-blue-800">
+            <Link href="/worksheets" className="text-lg text-blue-600 transition-colors hover:text-blue-800">
               Worksheets
             </Link>
           </li>
