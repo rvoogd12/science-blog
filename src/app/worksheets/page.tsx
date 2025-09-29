@@ -9,7 +9,12 @@ export default function Worksheets() {
   
   // Find related blog posts for worksheets
   const findRelatedBlogPost = (topicId: string) => {
-    return blogPosts.find(post => post.slug === topicId || post.slug.includes(topicId));
+    // First try to find an exact match
+    const exactMatch = blogPosts.find(post => post.slug === topicId);
+    if (exactMatch) return exactMatch;
+    
+    // If no exact match, look for a partial match
+    return blogPosts.find(post => post.slug.includes(topicId));
   };
   
   // Define available worksheets with images from related blog posts
