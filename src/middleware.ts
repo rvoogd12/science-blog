@@ -3,7 +3,12 @@ import type { NextRequest } from 'next/server';
 
 // This middleware prevents access to the email collection pages while they're under development
 export function middleware(request: NextRequest) {
-  // Check if the request is for a worksheet collection page
+  // Allow access to PDF files
+  if (request.nextUrl.pathname.endsWith('.pdf')) {
+    return NextResponse.next();
+  }
+  
+  // Check if the request is for a worksheet collection page (but not the main worksheets page)
   if (request.nextUrl.pathname.startsWith('/worksheets/') && 
       !request.nextUrl.pathname.endsWith('/worksheets')) {
     
@@ -16,5 +21,8 @@ export function middleware(request: NextRequest) {
 
 // Configure the paths that should be checked by this middleware
 export const config = {
-  matcher: '/worksheets/:path*',
+  matcher: [
+    // Match all paths under /worksheets except for the main /worksheets page
+    '/worksheets/:path*'
+  ]
 };
