@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+/*
 // This middleware prevents access to the email collection pages while they're under development
 export function middleware(request: NextRequest) {
   // Allow access to PDF files
@@ -26,3 +27,7 @@ export const config = {
     '/worksheets/:path*'
   ]
 };
+*/
+
+// Middleware is now commented out to allow access to the email collection pages
+// When you want to disable direct access again, uncomment the code above
