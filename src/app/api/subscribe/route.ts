@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-// This is a template for the API route - you'll implement the actual backend logic
+// This is a template for the API route - implementation for MailerLite integration
 export async function POST(request: Request) {
   try {
     const { name, email } = await request.json();
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // Example MailerLite API integration
+    // MailerLite API integration
     const response = await fetch('https://connect.mailerlite.com/api/subscribers', {
       method: 'POST',
       headers: {
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
     }
 
     // Send the worksheet or confirmation email here
-    // ...
+    // MailerLite will handle this via automation
 
     return NextResponse.json({ 
       message: 'All sent! If you can\'t find it in your Inbox, check your Spam in case it\'s there.' 
