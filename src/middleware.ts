@@ -1,7 +1,17 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-/*
+// Empty middleware function that just passes through all requests
+export function middleware(request: NextRequest) {
+  return NextResponse.next();
+}
+
+// Empty matcher to avoid applying this middleware to any routes
+export const config = {
+  matcher: []
+};
+
+/* DISABLED MIDDLEWARE - UNCOMMENT TO BLOCK ACCESS TO WORKSHEET PAGES
 // This middleware prevents access to the email collection pages while they're under development
 export function middleware(request: NextRequest) {
   // Allow access to PDF files
@@ -28,6 +38,3 @@ export const config = {
   ]
 };
 */
-
-// Middleware is now commented out to allow access to the email collection pages
-// When you want to disable direct access again, uncomment the code above
