@@ -96,7 +96,7 @@ export default function DownloadWorksheet() {
               }`}
               disabled={isSubmitting}
             >
-              Get Worksheet
+              Sign up and get the <strong>free worksheet PDF!</strong>
             </button>
             
             {message && (
