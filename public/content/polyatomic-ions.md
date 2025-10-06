@@ -1,6 +1,4 @@
-So our question in this article is: What are polyatomic ions? Simply said, polyatomic ions are ions that consist of two or more atoms bonded together, which collectively carry a charge.
-
-Unlike monatomic ions, which consist of just one ion, polyatomic ions are more complex and play a crucial role in various chemical reactions and compounds.
+(DOWNLOAD WORKSHEET PDF HERE)[https://somethingcalledscience.com/worksheets/polyatomic-ions]. So our question in this article is: What are polyatomic ions? Simply said, polyatomic ions are ions that consist of two or more atoms bonded together, which collectively carry a charge. Unlike monatomic ions, which consist of just one ion, polyatomic ions are more complex and play a crucial role in various chemical reactions and compounds.
 
 ## Structure and Composition
 
@@ -21,7 +19,7 @@ There are many polyatomic ions, each with its own unique structure and charge. L
 
 ## Nomenclature Rules: Naming Polyatomic Ions
 
-One thing that is important to know about polyatomic ions is that there are specific rules for how to name them. We have another article in which we provide a detailed explanation of these naming conventions. Here we'll just mention some key points so that you can get an idea.
+One thing that is important to know about polyatomic ions is that there are specific rules for how to name them. We have (another article)[https://somethingcalledscience.com/post/naming-polyatomic-ions] in which we provide a detailed explanation of these naming conventions. Here we'll just mention some key points so that you can get an idea.
 
 1. **Naming Conventions**: First, many polyatomic ions have suffixes that reflect the number of oxygen atoms that they have. For example, the suffix **"-ate"** is often used for ions with a higher number of oxygen atoms, while **"-ite"** is used for those with fewer oxygen atoms. For example, sulf*ate*(SO₄²⁻) has more oxygen atoms than sulf*ite* (SO₃²⁻).
 
@@ -29,8 +27,10 @@ One thing that is important to know about polyatomic ions is that there are spec
 
 3. **Charge Indication**: Finally, the overall charge of the polyatomic ion is shown in its formula. For example, the ammonium ion is written as **NH₄⁺**, where the plus sign shows that it has a positive charge. Phosphate, on the other hand, is written as **PO₄³⁻**, where the negative sign shows that it has a negative charge.
 
-Again, if you want a more detailed explanation of naming rules, please refer to our article that explains this.
+Again, if you want a more detailed explanation of naming rules, please refer to our (article)[https.//somethingcalledscience.com/post/naming-polyatomic-ions] that explains this.
 
 ## Conclusion
 
 In summary, polyatomic ions are complex ions that are made up of multiple atoms that collectively carry a charge. They are important components in many chemical compounds and biological processes, and so understanding what they are, how they are formed, and how they are named is essential for anyone studying chemistry.
+
+(DOWNLOAD WORKSHEET PDF HERE)[https://somethingcalledscience.com/worksheets/polyatomic-ions]

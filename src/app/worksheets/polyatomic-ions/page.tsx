@@ -41,7 +41,7 @@ export default function DownloadWorksheet() {
       }
       
       setIsSuccess(true);
-      setMessage('All sent! If you can\'t find it in your Inbox, check your Spam in case it\'s there.');
+      setMessage('All sent!\nIf you don\'t see our email in your Inbox within the next couple of minutes, please check your Spam or Junk folder.\nIf our email landed in your Spam or Junk folder, please mark our email as not spam/junk so you don\'t miss any of our future emails.');
       // Reset form
       setName('');
       setEmail('');
@@ -57,7 +57,7 @@ export default function DownloadWorksheet() {
     <main className="min-h-screen bg-gray-50">
       <Banner />
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Download Polyatomic Ions Worksheet PDF</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Polyatomic Ions: What They Are, Naming Rules and Examples (Anions, Cations, and PDF Quiz Worksheet)</h1>
         
         <div className="bg-white rounded-lg shadow-md p-8 text-center max-w-md mx-auto">
           <p className="text-gray-700 mb-6">Please enter your name and email and we'll send it right over! We'll also send you our weekly-ish newsletter. You can opt out anytime.</p>

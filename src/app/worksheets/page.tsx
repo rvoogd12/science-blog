@@ -21,7 +21,7 @@ export default function Worksheets() {
   const availableWorksheets = [
     {
       id: 'polyatomic-ions',
-      title: 'Polyatomic Ions Worksheet',
+      title: 'Polyatomic Ions: What They Are, Naming Rules and Examples (Anions, Cations, and PDF Quiz Worksheet)',
       description: 'Practice identifying and naming polyatomic ions with this comprehensive worksheet.',
       imageUrl: findRelatedBlogPost('polyatomic-ions')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/polyatomic-ions'
