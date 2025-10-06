@@ -61,6 +61,6 @@ export const blogPosts: BlogPost[] = [
     content: 'Explore a list of the most common polyatomic ions in chemistry, including their names, charges, and everyday applications...',
     imageUrl: '/images/list-of-common-polyatomic-ions.jpg',
     slug: 'list-of-common-polyatomic-ions',
-    videoId: 'Jv2mRAnQjRU'
+    videoId: 'B9QvzQ6lMXM'
   }
 ];
