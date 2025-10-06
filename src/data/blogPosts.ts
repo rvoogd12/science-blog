@@ -5,7 +5,7 @@ export type { BlogPost };
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'Anions and Cations',
+    title: 'What are Cations and Anions in Chemistry? This Article is on their Meaning, Definition, and Formation',
     category: 'chemistry',
     excerpt: 'Learn about anions and cations, the charged particles that form through electron transfer and are fundamental to understanding chemical bonding.',
     content: 'Anions and cations are ions that have gained or lost electrons, resulting in a negative or positive charge...',
@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '2',
-    title: 'Monatomic and Polyatomic Ions',
+    title: 'Monatomic vs Polyatomic Ions: Difference, Definition, and Meaning Explained, plus Examples',
     category: 'chemistry',
     excerpt: 'Discover the difference between monatomic ions (single atoms with charge) and polyatomic ions (multiple bonded atoms with charge) and their essential role in chemical reactions.',
     content: 'Monatomic and polyatomic ions are ions that have gained or lost electrons, resulting in a negative or positive charge...',
@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '3',
-    title: 'Naming Monatomic Ions',
+    title: 'Rules for Naming Monatomic Ions in Chemistry (Includes both Monoatomic Anions and Cations)',
     category: 'chemistry',
     excerpt: 'Learn the specific rules for naming monatomic ions, including how to determine if an ion is a cation or an anion and the naming conventions for monatomic cations and anions.',
     content: 'Naming monatomic ions is a fundamental skill in chemistry, as it helps identify the chemical properties of elements and compounds...',
@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '4',
-    title: 'Naming Polyatomic Ions',
+    title: 'Naming Rules for Polyatomic Ions in Chemistry: Conventions and Examples (of both Anions and Cations)',
     category: 'chemistry',
     excerpt: 'Learn the specific rules for naming polyatomic ions, including how to determine if an ion is a cation or an anion and the naming conventions for polyatomic cations and anions.',
     content: 'Naming polyatomic ions is a fundamental skill in chemistry, as it helps identify the chemical properties of elements and compounds...',
