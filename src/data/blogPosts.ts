@@ -55,12 +55,12 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '6',
-    title: 'Common Polyatomic Ions List in Chemistry: Names, Charges, and Everyday Applications',
+    title: 'Common Polyatomic Ions List in Chemistry: Names, Charges, and Everyday Examples',
     category: 'chemistry',
     excerpt: 'Learn about the common polyatomic ions in chemistry, including their names, charges, and examples.',
     content: 'Explore a list of the most common polyatomic ions in chemistry, including their names, charges, and everyday applications...',
     imageUrl: '/images/list-of-common-polyatomic-ions.jpg',
     slug: 'list-of-common-polyatomic-ions',
-    videoId: 'oAo3NpXb0GM'
+    videoId: 'Jv2mRAnQjRU'
   }
 ];
