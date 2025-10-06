@@ -4,8 +4,6 @@
 
 A polyatomic ion is made up of a group of atoms that are covalently bonded. This means that the ions that the polyatomic ion consists of share electrons, and these ions can include different types of elements from the periodic table.
 
-![](/images/005%20Polyatomic%20Ions/What%20is%20a%20polyatomic%20ion%20We%20explained%20it.jpg)
-
 Now, as I mentioned, polyatomic ions carry an electric charge, otherwise they wouldn't be ions. But how do we know the overall charge of a polyatomic ion? Well, the overall charge of a polyatomic ion comes from the difference between the total number of **protons** (which are positively charged) and the total number of **electrons** (which are negatively charged) in the ion.
 
 If the total number of protons is greater than the total number of electrons, the polyatomic ion carries a positive charge. If, on the other hand, the total number of electrons is greater than the total number of protons, it carries a negative charge.
@@ -42,3 +40,5 @@ Again, if you want a more detailed explanation of naming rules, please refer to 
 In summary, polyatomic ions are complex ions that are made up of multiple atoms that collectively carry a charge. They are important components in many chemical compounds and biological processes, and so understanding what they are, how they are formed, and how they are named is essential for anyone studying chemistry.
 
 [DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/polyatomic-ions)
+
+![](/images/005%20Polyatomic%20Ions/What%20is%20a%20polyatomic%20ion%20We%20explained%20it.jpg)
