@@ -30,7 +30,7 @@ export default function DownloadWorksheet() {
         body: JSON.stringify({ 
           name, 
           email,
-          groupId: 'polyatomic-ions'
+          groupId: 'list-of-common-polyatomic-ions'
         }),
       });
       
@@ -57,7 +57,7 @@ export default function DownloadWorksheet() {
     <main className="min-h-screen bg-gray-50">
       <Banner />
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Polyatomic Ions: What They Are, Naming Rules and Examples (Anions, Cations, and PDF Quiz Worksheet)</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Common Polyatomic Ions List in Chemistry: Names, Charges, and Everyday Applications</h1>
         
         <div className="bg-white rounded-lg shadow-md p-8 text-center max-w-md mx-auto">
           <p className="text-gray-700 mb-6">Please enter your name and email and we'll send it right over! We'll also send you our weekly-ish newsletter. You can opt out anytime.</p>
@@ -96,7 +96,7 @@ export default function DownloadWorksheet() {
               }`}
               disabled={isSubmitting}
             >
-              Sign up and get the <strong>free worksheet PDF!</strong>
+              Get Worksheet
             </button>
             
             {message && (

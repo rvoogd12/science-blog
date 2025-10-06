@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 // This is a template for the API route - implementation for MailerLite integration
 export async function POST(request: Request) {
   try {
-    const { name, email } = await request.json();
+    const { name, email, groupId } = await request.json();
 
     // Validate input
     if (!name || !email) {
@@ -13,9 +13,19 @@ export async function POST(request: Request) {
       );
     }
 
-    // Use environment variables for API key and specific group ID
+    // Use environment variables for API key
     const apiKey = process.env.MAILERLITE_API_KEY;
-    const groupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS; // Specific group ID for polyatomic ions
+    
+    // Determine group ID based on the request or use default
+    let targetGroupId;
+    if (groupId === 'list-of-common-polyatomic-ions') {
+      targetGroupId = process.env.MAILERLITE_GROUP_ID_LIST_OF_COMMON_POLYATOMIC_IONS;
+    } else if (groupId === 'polyatomic-ions') {
+      targetGroupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS;
+    } else {
+      // Default to polyatomic ions group if no group specified
+      targetGroupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS;
+    }
 
     if (!apiKey) {
       console.error('MailerLite API key is not configured');
@@ -38,7 +48,7 @@ export async function POST(request: Request) {
         fields: {
           name: name
         },
-        groups: groupId ? [groupId] : []
+        groups: targetGroupId ? [targetGroupId] : []
       })
     });
 

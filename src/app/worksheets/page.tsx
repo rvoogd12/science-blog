@@ -25,6 +25,13 @@ export default function Worksheets() {
       description: 'Practice identifying and naming polyatomic ions with this comprehensive worksheet.',
       imageUrl: findRelatedBlogPost('polyatomic-ions')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/polyatomic-ions'
+    },
+    {
+      id: 'list-of-common-polyatomic-ions',
+      title: 'Common Polyatomic Ions List in Chemistry: Names, Charges, and Everyday Applications',
+      description: 'Master the most common polyatomic ions with this comprehensive list and practice worksheet.',
+      imageUrl: findRelatedBlogPost('list-of-common-polyatomic-ions')?.imageUrl || '/images/placeholder.jpg',
+      href: '/worksheets/list-of-common-polyatomic-ions'
     }
   ];
   
