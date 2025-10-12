@@ -62,5 +62,15 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/list-of-common-polyatomic-ions.jpg',
     slug: 'list-of-common-polyatomic-ions',
     videoId: 'B9QvzQ6lMXM'
+  },
+  {
+    id: '7',
+    title: 'Maximum Oxidation State: Examples of the Highest Possible Known Oxidation Number in Chemistry!',
+    category: 'chemistry',
+    excerpt: 'Discover the extreme limits of chemistry with iridium\'s record-breaking +9 oxidation state! Learn how scientists push atoms to their absolute limits and why these discoveries matter for real-world applications.',
+    content: 'Journey to the extreme edges of chemistry where iridium achieves an astonishing +9 oxidation state—the highest confirmed oxidation number ever recorded. This remarkable feat represents one of chemistry\'s most extreme achievements, where a single atom effectively gives up all nine of its outer electrons. While this compound only exists under extraordinary laboratory conditions, studying these limits has led to breakthroughs in catalysis, environmental cleanup, and medical diagnostics. Explore how scientists push the boundaries of what\'s chemically possible and discover why noble gases like xenon can reach +8, while understanding the fundamental forces that prevent us from going even higher.',
+    imageUrl: '/images/highest-known-oxidation-state.jpg',
+    slug: 'highest-known-oxidation-state',
+    videoId: 'tCKrX0fDn-8'
   }
 ];
