@@ -3,6 +3,9 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import Image from 'next/image';
 
 interface MarkdownContentProps {
@@ -33,7 +36,8 @@ export default function MarkdownContent({ slug }: MarkdownContentProps) {
   return (
     <div className="prose prose-gray max-w-none text-gray-900">
       <ReactMarkdown 
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeKatex]}
         components={{
           h1: ({children}) => <h1 className="text-3xl font-bold text-gray-900 mb-4">{children}</h1>,
           h2: ({children}) => <h2 className="text-2xl font-semibold text-gray-900 mb-3 mt-6">{children}</h2>,

@@ -50,3 +50,19 @@ body {
 input, textarea, [contenteditable="true"], [role="textbox"], [role="searchbox"] {
   caret-color: auto;
 }
+
+/* Math expressions styling */
+.katex {
+  font-size: 1em;
+}
+
+.katex-display {
+  margin: 1em 0;
+  text-align: center;
+}
+
+/* Ensure inline math doesn't break line height */
+.katex .base {
+  display: inline-block;
+  vertical-align: baseline;
+}
