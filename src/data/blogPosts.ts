@@ -72,5 +72,15 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/highest-known-oxidation-state.jpg',
     slug: 'highest-known-oxidation-state',
     videoId: 'tCKrX0fDn-8'
+  },
+  {
+    id: '8',
+    title: 'The Oxidation Number of Transition Metals: How to Find Variable Oxidation States in Chemistry',
+    category: 'chemistry',
+    excerpt: 'Learn about oxidation numbers in transition metals, including how they can have multiple oxidation states and why they are important in chemistry.',
+    content: 'Oxidation numbers in transition metals are a complex topic, but understanding them is essential for understanding chemistry. In this article, we will explore the concept of oxidation numbers in transition metals and how they are used to describe the chemical properties of these elements.',
+    imageUrl: '/images/oxidation-numbers-in-transition-metals.jpg',
+    slug: 'oxidation-numbers-in-transition-metals',
+    videoId: ''
   }
 ];
