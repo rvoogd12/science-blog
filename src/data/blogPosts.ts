@@ -81,6 +81,6 @@ export const blogPosts: BlogPost[] = [
     content: 'Oxidation numbers in transition metals are a complex topic, but understanding them is essential for understanding chemistry. In this article, we will explore the concept of oxidation numbers in transition metals and how they are used to describe the chemical properties of these elements.',
     imageUrl: '/images/oxidation-numbers-in-transition-metals.jpg',
     slug: 'oxidation-numbers-in-transition-metals',
-    videoId: ''
+    videoId: 'PEJt3VMfiPA'
   }
 ];
