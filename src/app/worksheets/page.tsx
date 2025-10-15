@@ -32,6 +32,13 @@ export default function Worksheets() {
       description: 'Master the most common polyatomic ions with this comprehensive list and practice worksheet.',
       imageUrl: findRelatedBlogPost('list-of-common-polyatomic-ions')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/list-of-common-polyatomic-ions'
+    },
+    {
+      id: 'oxidation-numbers-in-transition-metals',
+      title: 'The Oxidation Number of Transition Metals: How to Find Variable Oxidation States in Chemistry',
+      description: 'Learn to calculate oxidation numbers in transition metals with this comprehensive worksheet.',
+      imageUrl: findRelatedBlogPost('oxidation-numbers-in-transition-metals')?.imageUrl || '/images/placeholder.jpg',
+      href: '/worksheets/oxidation-numbers-in-transition-metals'
     }
   ];
   
