@@ -1,4 +1,4 @@
-Have you ever noticed how iron can rust into that familiar reddish-brown color, or how copper statues turn green over time? These color changes hint at something fascinating happening at the atomic level, namely transition metals changing their oxidation numbers. While this might sound complicated, understanding oxidation numbers is actually quite accessible once you grasp a few key concepts.
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/oxidation-numbers-in-transition-metals). Have you ever noticed how iron can rust into that familiar reddish-brown color, or how copper statues turn green over time? These color changes hint at something fascinating happening at the atomic level, namely transition metals changing their oxidation numbers. While this might sound complicated, understanding oxidation numbers is actually quite accessible once you grasp a few key concepts.
 
 ## What Are Oxidation Numbers?
 
@@ -131,3 +131,5 @@ Hence, chromium has an oxidation number of +6.
 ## The Takeaway
 
 Summing up, transition metals' ability to exist in multiple oxidation states makes them the Swiss Army knives of chemistry—they are versatile, adaptable, and incredibly useful, and this is because they're flexible and capable of losing different numbers of electrons depending on the situation.
+
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/oxidation-numbers-in-transition-metals)

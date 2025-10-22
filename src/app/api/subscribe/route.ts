@@ -24,6 +24,8 @@ export async function POST(request: Request) {
       targetGroupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS;
     } else if (groupId === 'oxidation-numbers-in-transition-metals') {
       targetGroupId = process.env.MAILERLITE_GROUP_ID_OXIDATION_NUMBERS_IN_TRANSITION_METALS;
+    } else if (groupId === 'jj-thomson-life-story') {
+      targetGroupId = process.env.MAILERLITE_GROUP_ID_JJ_THOMSON_LIFE_STORY;
     } else {
       // Default to polyatomic ions group if no group specified
       targetGroupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS;

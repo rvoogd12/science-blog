@@ -82,5 +82,25 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/oxidation-numbers-in-transition-metals.jpg',
     slug: 'oxidation-numbers-in-transition-metals',
     videoId: 'PEJt3VMfiPA'
-  }
+  },
+  {
+    id: '9',
+    title: 'The Life Story of J.J. Thomson: Biography, Electron Discovery, Cathode Ray Tube Experiment—Class 12',
+    category: 'physics',
+    excerpt: 'Learn about the life and discoveries of J.J. Thomson, the scientist who discovered the electron through the cathode ray tube experiment.',
+    content: 'J.J. Thomson was a British physicist who discovered the electron in 1897 through the cathode ray tube experiment. He was born in Manchester, England. He was a professor at Cambridge University and a member of the Royal Society. He was awarded the Nobel Prize in Physics in 1906 for his discovery of the electron.',
+    imageUrl: '/images/jj-thomson-life-story.jpg',
+    slug: 'jj-thomson-life-story',
+    videoId: 'b2rIKHTliA0'
+  }/*,
+  {
+    id: '10',
+    title: 'Why Transition Metals are Generally Coloured: Color by Transition Elements Explained for Chemistry',
+    category: 'chemistry',
+    excerpt: 'Discover the fascinating reason why transition metals are generally coloured, and how their oxidation numbers determine their unique colors in chemistry.',
+    content: 'Have you ever noticed how iron can rust into that familiar reddish-brown color, or how copper statues turn green over time? These color changes hint at something fascinating happening at the atomic level, namely transition metals changing their oxidation numbers. While this might sound...',
+    imageUrl: '/images/why-transition-metals-are-coloured.jpg',
+    slug: 'why-transition-metals-are-coloured',
+    videoId: '8ugSVOkA1xo'
+  }*/
 ];

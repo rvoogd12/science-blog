@@ -39,6 +39,13 @@ export default function Worksheets() {
       description: 'Learn to calculate oxidation numbers in transition metals with this comprehensive worksheet.',
       imageUrl: findRelatedBlogPost('oxidation-numbers-in-transition-metals')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/oxidation-numbers-in-transition-metals'
+    },
+    {
+      id: 'jj-thomson-life-story',
+      title: 'The Life Story of J.J. Thomson: Biography, Electron Discovery, Cathode Ray Tube Experiment—Class 12',
+      description: 'Learn about the life and discoveries of J.J. Thomson, the scientist who discovered the electron through the cathode ray tube experiment.',
+      imageUrl: findRelatedBlogPost('jj-thomson-life-story')?.imageUrl || '/images/placeholder.jpg',
+      href: '/worksheets/jj-thomson-life-story'
     }
   ];
   

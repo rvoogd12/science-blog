@@ -1,4 +1,4 @@
-[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/polyatomic-ions). As you probably know, polyatomic ions are ions composed of two or more atoms that are covalently bonded together, and that collectively carry a net electric charge. Polyatomic ions play a crucial role in various chemical reactions and so it's important to know about them.
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/list-of-common-polyatomic-ions). As you probably know, polyatomic ions are ions composed of two or more atoms that are covalently bonded together, and that collectively carry a net electric charge. Polyatomic ions play a crucial role in various chemical reactions and so it's important to know about them.
 
 We have [other articles](https://www.somethingcalledscience.com/search?q=Polyatomic%20Ions) that dive more in depth into polyatomic ions. In this article, we'll focus on a list of the ones that are most frequently found in chemical compounds, reactions, and everyday applications.
 
@@ -44,4 +44,4 @@ Also, compounds that contain ammonium are used in the food industry as food addi
 
 So there you have it. Sulfate, nitrate, phosphate, carbonate, and ammonium are some of the most common polyatomic ions. They're found in many chemical compounds, reactions, and everyday applications, and hence, understanding these ions and their properties is crucial for anyone studying chemistry.
 
-[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/polyatomic-ions)
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/list-of-common-polyatomic-ions)
