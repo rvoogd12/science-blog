@@ -1,4 +1,4 @@
-Have you ever wondered why ruby gemstones are red, rust is orange-brown, or copper patina on statues is green? The answer lies in the fascinating chemistry of transition metals.
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/why-transition-metals-are-coloured). Have you ever wondered why ruby gemstones are red, rust is orange-brown, or copper patina on statues is green? The answer lies in the fascinating chemistry of transition metals.
 
 Transition metals are elements found in the middle section, or d-block, of the periodic table. They include metals like iron (Fe), copper (Cu), and manganese (Mn). One of their most striking features is that unlike most other elements, their compounds are often brilliantly coloured. However, not all transition metals form coloured compounds—there are a few exceptions.
 
@@ -36,7 +36,6 @@ Rust is orange-brown, and it's something we've all seen on old bikes, cars, or m
 So why don't other elements show these vibrant colors?
 
 That's because:
-1111111111111111111111
 - **They don't have d-orbitals with electrons** (like calcium), so there's nowhere for electrons to jump,
 - **Their d-orbitals are completely full**, so electrons can't jump to higher d-orbitals (like with zinc, which is itself a transition metal but an exception to the colour rule), or
 - **The energy gaps are too small or too large** (like sodium) to match visible light colours
@@ -57,3 +56,5 @@ The colour you see is always opposite to the colour absorbed on the colour wheel
 ## Summing Up
 
 The colours of transition metals are a beautiful example of quantum mechanics in action. These colours aren't from pigments or dyes in the traditional sense—rather they're built into the very structure of the material at the atomic level.
+
+[DOWNLOAD WORKSHEET PDF HERE](https://somethingcalledscience.com/worksheets/why-transition-metals-are-coloured)
