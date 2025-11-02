@@ -46,6 +46,13 @@ export default function Worksheets() {
       description: 'Learn about the life and discoveries of J.J. Thomson, the scientist who discovered the electron through the cathode ray tube experiment.',
       imageUrl: findRelatedBlogPost('jj-thomson-life-story')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/jj-thomson-life-story'
+    },
+    {
+      id: 'why-transition-metals-are-coloured',
+      title: 'Why Transition Metals are Generally Coloured: Color by Transition Elements Explained for Chemistry',
+      description: 'Discover the fascinating reason why transition metals are generally coloured, and how their oxidation numbers determine their unique colors in chemistry.',
+      imageUrl: findRelatedBlogPost('why-transition-metals-are-coloured')?.imageUrl || '/images/placeholder.jpg',
+      href: '/worksheets/why-transition-metals-are-coloured'
     }
   ];
   

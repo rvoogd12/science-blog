@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/jj-thomson-life-story.jpg',
     slug: 'jj-thomson-life-story',
     videoId: 'b2rIKHTliA0'
-  }/*,
+  },
   {
     id: '10',
     title: 'Why Transition Metals are Generally Coloured: Color by Transition Elements Explained for Chemistry',
@@ -102,5 +102,5 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/why-transition-metals-are-coloured.jpg',
     slug: 'why-transition-metals-are-coloured',
     videoId: '8ugSVOkA1xo'
-  }*/
+  }
 ];
