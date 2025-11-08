@@ -28,6 +28,8 @@ export async function POST(request: Request) {
       targetGroupId = process.env.MAILERLITE_GROUP_ID_JJ_THOMSON_LIFE_STORY;
     } else if (groupId === 'why-transition-metals-are-coloured') {
       targetGroupId = process.env.MAILERLITE_GROUP_ID_WHY_TRANSITION_METALS_ARE_COLOURED;
+    } else if (groupId === 'thermodynamics-chemistry-class-11') {
+      targetGroupId = process.env.MAILERLITE_GROUP_ID_THERMODYNAMICS_CHEMISTRY_CLASS_11;
     } else {
       // Default to polyatomic ions group if no group specified
       targetGroupId = process.env.MAILERLITE_GROUP_ID_POLYATOMIC_IONS;
