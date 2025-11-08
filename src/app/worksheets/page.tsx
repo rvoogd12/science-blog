@@ -53,6 +53,13 @@ export default function Worksheets() {
       description: 'Discover the fascinating reason why transition metals are generally coloured, and how their oxidation numbers determine their unique colors in chemistry.',
       imageUrl: findRelatedBlogPost('why-transition-metals-are-coloured')?.imageUrl || '/images/placeholder.jpg',
       href: '/worksheets/why-transition-metals-are-coloured'
+    },
+    {
+      id: 'thermodynamics-chemistry-class-11',
+      title: 'Thermodynamics Chemistry Class 11: Crash Course on First Law of Thermodynamics, Enthalpy, Hess\'s Law',
+      description: 'Learn the basics of thermodynamics in chemistry, including the first law of thermodynamics, enthalpy, and Hess\'s law.',
+      imageUrl: findRelatedBlogPost('thermodynamics-chemistry-class-11')?.imageUrl || '/images/placeholder.jpg',
+      href: '/worksheets/thermodynamics-chemistry-class-11'
     }
   ];
   

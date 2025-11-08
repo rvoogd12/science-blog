@@ -102,5 +102,15 @@ export const blogPosts: BlogPost[] = [
     imageUrl: '/images/why-transition-metals-are-coloured.jpg',
     slug: 'why-transition-metals-are-coloured',
     videoId: '8ugSVOkA1xo'
+  },
+  {
+    id: '11',
+    title: 'Thermodynamics Chemistry Class 11: Crash Course on First Law of Thermodynamics, Enthalpy, Hess\'s Law',
+    category: 'chemistry',
+    excerpt: 'Learn the basics of thermodynamics in chemistry, including the first law of thermodynamics, enthalpy, and Hess\'s law.',
+    content: 'Thermodynamics is the study of energy and how it transforms from one form to another. In chemistry, we use thermodynamics to understand how chemical reactions work and how they relate to energy changes. In this article, we will explore the basics of thermodynamics, including the first law of thermodynamics, enthalpy, and Hess\'s law.',
+    imageUrl: '/images/thermodynamics-chemistry-class-11.jpg',
+    slug: 'thermodynamics-chemistry-class-11',
+    videoId: 'iHedByuub4Y'
   }
 ];
